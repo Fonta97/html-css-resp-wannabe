@@ -129,4 +129,36 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media and (max-width: 480px) {
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%
+    }
+}
+
+
+/* bonus */
+@media screen {
+    .container {
+        width: 100%;
+    }
+}
